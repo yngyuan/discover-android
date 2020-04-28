@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?attr/actionBarSize"
+    android:paddingBottom="?attr/actionBarSize"
+    tools:context=".CreateFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editText_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Default Title"
+                android:textColor="#65000000"
+                android:textSize="30sp"
+                android:typeface="serif" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView_camera"
+                    android:layout_width="match_parent"
+                    android:layout_height="321dp"
+                    android:contentDescription="No Image Preview Now"
+                    tools:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/textView_nopreview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Image Preview"
+                    android:textSize="30sp"
+                    app:fontFamily="serif" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button_camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Take a photo" />
+
+            <EditText
+                android:id="@+id/editText_description"
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Description"
+                android:textColor="#65000000"
+                android:typeface="serif" />
+
+            <Spinner
+                android:id="@+id/spinner_theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="false"
+                android:entries="@array/themes"
+                android:minHeight="55dp"
+                android:scrollbarSize="4dp"
+                android:spinnerMode="dialog" />
+
+            <EditText
+                android:id="@+id/editText_tags"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="tag1, tag2, tagN"
+                android:textColor="#66000000"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/textView_current_location_for_creation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Current location"
+                android:textSize="18sp"
+                app:fontFamily="serif" />
+
+            <Button
+                android:id="@+id/button_create"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create New Report!" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/theme_img"
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:scaleType="fitCenter"
+                tools:srcCompat="@tools:sample/backgrounds/scenic[5]" />
+
+            <TextView
+                android:id="@+id/theme_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Theme Title"
+                android:textSize="30sp"
+                app:fontFamily="serif" />
+
+            <TextView
+                android:id="@+id/theme_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description, description, description"
+                android:textSize="18sp"
+                app:fontFamily="serif" />
+
+            <Button
+                android:id="@+id/subscribe_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Purchase"
+                android:textColor="#009688"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

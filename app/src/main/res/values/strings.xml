@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DPatreon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="manage_page">Manage</string>
+    <string name="subscribe_page">Subscribe</string>
+    <string name="create_page">Create</string>
+    <string name="discover_page">Discover</string>
+    <string name="homepage">192.168.1.15:5000</string>
+    <string name="createReport">createReportMobile.html</string>
+    <string name="userLoginPath">userLoginMobile</string>
+    <string name="registerPath">registerMobile</string>
+    <string name="managePath">manageMobile</string>
+    <string name="subscribePath">subscribeMobile</string>
+    <string name="viewPath">viewMobile</string>
+    <string name="searchPath">searchMobile</string>
+    <string name="viewOnePath">viewOneMobile</string>
+    <string-array name="themes">
+        <item>Portrait</item>
+        <item>Sky</item>
+        <item>Grass</item>
+        <item>blue</item>
+    </string-array>
+</resources>

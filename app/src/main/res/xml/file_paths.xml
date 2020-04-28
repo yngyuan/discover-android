@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-files-path name="ef_my_images" path="Pictures/" />
+    <external-path name="e_my_images" path="Pictures/" />
+    <cache-path name="c_my_images" path="Pictures/" />
+    <external-cache-path name="ec_my_images" path="Pictures/" />
+    <files-path name="f_my_images" path="Pictures/" />
+
+</paths>
